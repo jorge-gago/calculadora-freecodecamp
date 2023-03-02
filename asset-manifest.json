@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jorge-gago/calculadora-freecodecamp/static/css/main.81a3a058.css",
+    "main.js": "/jorge-gago/calculadora-freecodecamp/static/js/main.0f07fc31.js",
+    "static/js/787.a0d8d0d4.chunk.js": "/jorge-gago/calculadora-freecodecamp/static/js/787.a0d8d0d4.chunk.js",
+    "index.html": "/jorge-gago/calculadora-freecodecamp/index.html",
+    "main.81a3a058.css.map": "/jorge-gago/calculadora-freecodecamp/static/css/main.81a3a058.css.map",
+    "main.0f07fc31.js.map": "/jorge-gago/calculadora-freecodecamp/static/js/main.0f07fc31.js.map",
+    "787.a0d8d0d4.chunk.js.map": "/jorge-gago/calculadora-freecodecamp/static/js/787.a0d8d0d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81a3a058.css",
+    "static/js/main.0f07fc31.js"
+  ]
+}
