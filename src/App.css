@@ -1,17 +1,29 @@
 .App {
   display: flex;
   justify-content: center;
+  background-color: #6c6b6b;
+  height: 100vh;
 }
 
 .calculator {
-  margin-top: 20%;
+  margin-top: 15%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: solid;
+  border-radius: 5%;
+  /* width: 40ch; */
+  padding: 0.5rem;
+  height: fit-content;
+  background-color: #3b3b3b;
 }
 
 .calculator > * {
   border: solid 1px black;
-  padding: 15px;
+  /* padding: 1rem;
+  margin: 0.5rem; */
+  margin: 0.2rem;
+  /* min-height: 3rem;
+  min-width: 3rem; */
 }
 
 .row {
@@ -20,4 +32,32 @@
 
 #display {
   text-align: right;
+  border-radius: 10px;
+  padding: 2%;
+  min-height: 3rem;
+  min-width: 3rem;
+  background-color: #828282;
+}
+
+.pad{
+  /* border: solid 1px; */
+  border-radius: 50%;
+  background-color: #909090;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3rem;
+  min-width: 3rem;
+}
+
+
+.clear{
+  background-color: #b72910;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 2%;
+  height: 2rem;
 }
