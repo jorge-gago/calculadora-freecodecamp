@@ -60,12 +60,15 @@ function App() {
     setDisplay(() => {
       return temp.join(' ')
     })
-
   }
 
   const handleEqual = () => {
     setEqual(true)
-    setDisplay(eval(display))
+    const values = (display) => {
+      return Function ('return ' + display)
+    }
+    // setDisplay(eval(display))
+    setDisplay(values)
   }
 
   const handleDecimal = () => {
