@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css';
+import { evaluate } from 'mathjs';
 
 function App() {
   const [ display, setDisplay] = useState('0')
@@ -64,9 +65,7 @@ function App() {
 
   const handleEqual = () => {
     setEqual(true)
-    const values = (display) => {
-      return Function ('return ' + display)
-    }
+    const values = evaluate(display)
     // setDisplay(eval(display))
     setDisplay(values)
   }
