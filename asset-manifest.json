@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jorge-gago/calculadora-freecodecamp/static/css/main.81a3a058.css",
-    "main.js": "/jorge-gago/calculadora-freecodecamp/static/js/main.46aa8c23.js",
+    "main.js": "/jorge-gago/calculadora-freecodecamp/static/js/main.9927043c.js",
     "static/js/787.a0d8d0d4.chunk.js": "/jorge-gago/calculadora-freecodecamp/static/js/787.a0d8d0d4.chunk.js",
     "index.html": "/jorge-gago/calculadora-freecodecamp/index.html",
     "main.81a3a058.css.map": "/jorge-gago/calculadora-freecodecamp/static/css/main.81a3a058.css.map",
-    "main.46aa8c23.js.map": "/jorge-gago/calculadora-freecodecamp/static/js/main.46aa8c23.js.map",
+    "main.9927043c.js.map": "/jorge-gago/calculadora-freecodecamp/static/js/main.9927043c.js.map",
     "787.a0d8d0d4.chunk.js.map": "/jorge-gago/calculadora-freecodecamp/static/js/787.a0d8d0d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81a3a058.css",
-    "static/js/main.46aa8c23.js"
+    "static/js/main.9927043c.js"
   ]
 }
